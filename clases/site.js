@@ -1,3 +1,5 @@
+
+
 // clase 1
 // console.log("hola Coder");
 
@@ -92,3 +94,25 @@
 // while (repetir){
 //     console.log("al infino y mas allá...")
 // }
+// pone cero en una variblea
+// let numero = 0;
+// do {
+//     // do numero es igual a preguntar e ingresar un numero
+//     numero = prompt("ingresa un numero")
+//     console.log (numero);
+// // mientras sea un numero
+// }while (parseInt(numero));
+
+let entrada = prompt ("ingresa un nombre");
+while (entrada != "esc" ) {
+    switch (entrada) {
+        case "agustin":
+        alert ("hola agustin");
+        break;
+        
+            default:
+                alert("¿quien sos?")
+                break;
+    }
+    entrada = prompt ("ingresar un nombre");
+}

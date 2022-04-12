@@ -6,8 +6,18 @@
 //     console.log(i)
 //     }
 
-let entrada = prompt("Ingresa un numero");
-while(entrada != "29") {
-    alert ("El usuario ingresó  " + entrada);
-    entrada = prompt ("error, ingrese otro numero");
-}
+// let entrada = prompt("Ingresa un numero");
+// while(entrada != "29" && entrada != "28") {
+//     alert ("El usuario ingresó  " + entrada);
+//     entrada = prompt ("error, ingrese otro numero");
+// }
+
+let numero = 0;
+do {
+    numero = prompt("ingresa un numero")
+    console.log (numero);
+    
+}while (parseInt(numero));
+
+
+while (numero != 2);
