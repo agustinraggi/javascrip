@@ -103,16 +103,16 @@
 // // mientras sea un numero
 // }while (parseInt(numero));
 
-let entrada = prompt ("ingresa un nombre");
-while (entrada != "esc" ) {
-    switch (entrada) {
-        case "agustin":
-        alert ("hola agustin");
-        break;
+// let entrada = prompt ("ingresa un nombre");
+// while (entrada != "esc" ) {
+//     switch (entrada) {
+//         case "agustin":
+//         alert ("hola agustin");
+//         break;
         
-            default:
-                alert("¿quien sos?")
-                break;
-    }
-    entrada = prompt ("ingresar un nombre");
-}
+//             default:
+//                 alert("¿quien sos?")
+//                 break;
+//     }
+//     entrada = prompt ("ingresar un nombre");
+// }
