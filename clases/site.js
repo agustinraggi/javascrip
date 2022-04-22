@@ -8,7 +8,7 @@
 // console.log ("mi var a = " + a);
 // console.log ("mi var b = " + b);
 
-// console.log (a +b);
+// console.log (a + b);
 
 // var nombre= prompt("ingresa tu nombre");
 // alert ("hola " + nombre);
